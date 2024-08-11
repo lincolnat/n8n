@@ -1,5 +1,5 @@
 import { IDataObject, INodeExecutionData, INodeType, INodeTypeDescription } from 'n8n-workflow';
-import { IExecuteFunctions } from 'n8n-core';
+import { IExecuteFunctions } from 'n8n-workflow';
 
 import { zohoApiRequest } from './GenericFunctions';
 
