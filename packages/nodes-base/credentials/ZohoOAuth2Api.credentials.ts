@@ -68,7 +68,7 @@ export class ZohoOAuth2Api implements ICredentialType {
 			displayName: 'Scope',
 			name: 'scope',
 			type: 'hidden',
-			default: 'ZohoCRM.modules.ALL,ZohoCRM.settings.all,ZohoCRM.users.all',
+			default: 'ZohoBOOKS.modules.ALL,ZohoBOOKS.settings.all,ZohoBOOKS.users.all',
 		},
 		{
 			displayName: 'Auth URI Query Parameters',

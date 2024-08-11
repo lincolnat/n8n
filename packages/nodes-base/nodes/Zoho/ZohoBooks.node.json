@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-base.zohoCrm",
+	"node": "n8n-nodes-base.zohoBooks",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Communication", "Sales"],
@@ -11,7 +11,7 @@
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zohocrm/"
+				"url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zohobooks/"
 			}
 		],
 		"generic": [

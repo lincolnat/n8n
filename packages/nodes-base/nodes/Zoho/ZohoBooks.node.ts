@@ -65,17 +65,17 @@ import {
 	vendorOperations,
 } from './descriptions';
 
-export class ZohoCrm implements INodeType {
+export class ZohoBooks implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Zoho CRM',
-		name: 'zohoCrm',
+		displayName: 'Zoho BOOKS',
+		name: 'zohoBooks',
 		icon: 'file:zoho.svg',
 		group: ['transform'],
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		version: 1,
-		description: 'Consume Zoho CRM API',
+		description: 'Consume Zoho BOOKS API',
 		defaults: {
-			name: 'Zoho CRM',
+			name: 'Zoho BOOKS',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
